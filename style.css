@@ -1,0 +1,14 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url(C:\Users\riintoom\Desktop\veebileht\delta.jpg); no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #cccccc;
+}
