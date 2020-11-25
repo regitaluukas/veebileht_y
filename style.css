@@ -29,14 +29,14 @@ h1 {
     margin-left: -275px;
 }
 
-.peamenü {
+.peamenüü {
     float: left;
     list-style: none;
     line-height: 70px;
     padding-left: 10px;
 }
 
-.peamenü li a {
+.peamenüü li a {
     color: white;
     font-family: "Arial Narrow";
     font-stretch: extra-condensed;
@@ -46,6 +46,6 @@ h1 {
     padding: 10px;
 }
 
-.peamenü li a:hover {
+.peamenüü li a:hover {
     border: 1px solid white;
 }
