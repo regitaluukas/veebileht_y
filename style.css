@@ -1,4 +1,3 @@
-
 * { 
     margin: 0;
     padding: 0;
@@ -7,26 +6,10 @@
 body {
     background-image:linear-gradient(90deg, rgba(0,0,0,0.6255544454109769) 3%, rgba(0,0,11,0) 54%), 
     url(delta.jpg);
-    height: 100vh;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #cccccc;
-/* }
-div.infokast {
-    background-color: #ffffff;
-    opacity: 0.6;
-    height: 50px;
-    bottom: 0px;
-  } */
-  
-div.infokast p {
-    margin: 5%;
-    font-weight: bold;
-    text-align: center;
-    color: #000000;
-  }
-  
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 h1 {
     color: white;
     font-family: "Arial Narrow";
@@ -40,6 +23,24 @@ h1 {
     margin-top: -50px;
     margin-left: -275px;
 }
+
+div.infokast {
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0.6;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+  }
+
+div.infokast p {
+    margin: 5%;
+    font-weight: bold;
+    font-family: "Arial Narrow";
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+  }
 
 .peamenüü {
     float: left;
