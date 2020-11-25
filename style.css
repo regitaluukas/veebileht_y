@@ -22,11 +22,9 @@ h1 {
     font-stretch: extra-condensed;
     text-align: center;
     font-size: 70px;
-    position: fixed;
+    position: absolute;
     top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -400px;
+    width: 100%;
 }
 
 .peamenü {
