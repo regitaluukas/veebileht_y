@@ -1,40 +1,55 @@
-
 * { 
     margin: 0;
     padding: 0;
 }
 
-
 body {
     background-image:linear-gradient(90deg, rgba(0,0,0,0.6255544454109769) 3%, rgba(0,0,11,0) 54%), 
-    url(delta.jpg);
-    height: 100vh;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #cccccc;
+    url(IMG_4827.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1 {
     color: white;
     font-family: "Arial Narrow";
-    font-weight: 200;
+    font-weight: bolder;
     font-stretch: extra-condensed;
     text-align: center;
     font-size: 70px;
     position: absolute;
     top: 50%;
-    width: 100%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -275px;
 }
 
-.peamenü {
+div.infokast {
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0.6;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+  }
+
+div.infokast p {
+    margin: 5%;
+    font-weight: bold;
+    font-family: "Arial Narrow";
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+  }
+
+.peamenüü {
     float: left;
     list-style: none;
     line-height: 70px;
     padding-left: 10px;
 }
 
-.peamenü li a {
+.peamenüü li a {
     color: white;
     font-family: "Arial Narrow";
     font-stretch: extra-condensed;
@@ -44,6 +59,6 @@ h1 {
     padding: 10px;
 }
 
-.peamenü li a:hover {
+.peamenüü li a:hover {
     border: 1px solid white;
 }
