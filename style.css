@@ -4,15 +4,37 @@
     padding: 0;
 }
 
-
 body {
     background-image:linear-gradient(90deg, rgba(0,0,0,0.6255544454109769) 3%, rgba(0,0,11,0) 54%), 
     url(delta.jpg);
+<<<<<<< HEAD
     background-size: cover;
     background-attachment: fixed;
 
 }
 
+=======
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cccccc;
+/* }
+div.infokast {
+    background-color: #ffffff;
+    opacity: 0.6;
+    height: 50px;
+    bottom: 0px;
+  } */
+  
+div.infokast p {
+    margin: 5%;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+  }
+  
+>>>>>>> c0e3e2be85a52b87526d6b62ee5464f67b0fb924
 h1 {
     color: white;
     font-family: "Arial Narrow";
@@ -27,14 +49,14 @@ h1 {
     margin-left: -275px;
 }
 
-.peamenü {
+.peamenüü {
     float: left;
     list-style: none;
     line-height: 70px;
     padding-left: 10px;
 }
 
-.peamenü li a {
+.peamenüü li a {
     color: white;
     font-family: "Arial Narrow";
     font-stretch: extra-condensed;
@@ -44,6 +66,6 @@ h1 {
     padding: 10px;
 }
 
-.peamenü li a:hover {
+.peamenüü li a:hover {
     border: 1px solid white;
 }
