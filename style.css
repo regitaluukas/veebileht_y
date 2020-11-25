@@ -12,13 +12,13 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: #cccccc;
-}
+/* }
 div.infokast {
     background-color: #ffffff;
     opacity: 0.6;
     height: 50px;
     bottom: 0px;
-  }
+  } */
   
 div.infokast p {
     margin: 5%;
@@ -26,7 +26,7 @@ div.infokast p {
     text-align: center;
     color: #000000;
   }
-
+  
 h1 {
     color: white;
     font-family: "Arial Narrow";
