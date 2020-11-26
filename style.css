@@ -16,21 +16,21 @@ h1 {
     font-weight: bolder;
     font-stretch: extra-condensed;
     text-align: center;
-    font-size: 70px;
+    font-size: 80px;
     position: fixed;
     top: 50%;
     left: 50%;
     margin-top: -50px;
-    margin-left: -275px;
+    margin-left: -350px;
 }
 
 div.infokast {
-    background-color: rgba(255, 255, 255, 0.5);
-    opacity: 0.6;
+    background-color: rgba(255, 255, 255, 0.322);
+    backdrop-filter: blur(3px);
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 90px;
+    height: 70px;
   }
 
 div.infokast p {
@@ -39,7 +39,7 @@ div.infokast p {
     font-family: "Arial Narrow";
     color: rgb(0, 0, 0);
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
 .peamenüü {
