@@ -16,7 +16,7 @@ h1 {
     font-weight: bolder;
     font-stretch: extra-condensed;
     text-align: center;
-    font-size: 70px;
+    font-size: 80px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -25,7 +25,7 @@ h1 {
 }
 
 div.infokast {
-    background-color: rgba(255, 255, 255, 0.322);
+    background-color: rgba(209, 209, 209, 0.322);
     backdrop-filter: blur(3px);
     position: fixed;
     bottom: 0;
@@ -37,7 +37,7 @@ div.infokast p {
     margin: 5%;
     font-weight: bold;
     font-family: "Arial Narrow";
-    color: rgb(0, 0, 0);
+    color: rgb(20, 20, 20);
     text-align: center;
     margin-top: 10px;
   }
