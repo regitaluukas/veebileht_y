@@ -2,9 +2,10 @@
 <html>
 <head>
 <title>Delta tudengiala</title>
-
 <link href="kärgstyle.css" rel="stylesheet" type="text/css">
 <link href="põhistyle.css" rel="stylesheet" type="text/css">
+<link href="slaidshow_style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <header>
@@ -17,19 +18,32 @@
         </ul>
         </div>
     </header>
-    <section class="pildid"
-        <div class="Slaidid">
-            <img class="mySlides" src="pildid/IMG_4859.JPG" style="width:100%">
-            <img class="mySlides" src="pildid/IMG_4862.JPG" style="width:100%">  
-            <img class="mySlides" src="pildid/IMG_4882.JPG" style="width:100%">   
-            <button class="nupp-vasakule" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="nupp-paremale" onclick="plusDivs(1)">&#10095;</button>
+    <div class="slideshow-kast">
+
+        <div class="mySlides fade">
+          <img src="pildid/IMG_4843.JPG" style="width:100%">
         </div>
-    </section>
-    <script src="slideshow.js"></script>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
+        
+        <div class="mySlides fade">
+          <img src="pildid/IMG_4844.JPG" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="pildid/IMG_4838.JPG" style="width:100%">
+        </div>
+        
+        <a class="vasak-nupp" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="parem-nupp" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div class="nupud">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </div>
+    <script src="slaidshow.js"></script>
 </body>    
 </html>
