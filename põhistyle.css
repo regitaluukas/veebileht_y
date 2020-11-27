@@ -23,3 +23,7 @@ body{
 .peamenüü li a:hover {
     border: 1px solid white;
 }
+
+.mySlides {
+    display:none;
+}
