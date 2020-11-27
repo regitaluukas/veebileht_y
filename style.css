@@ -5,14 +5,14 @@
 
 body {
     background-image:linear-gradient(90deg, rgba(0,0,0,0.6255544454109769) 3%, rgba(0,0,11,0) 54%), 
-    url(IMG_4827.jpg);
+    url(delta.jpg);
     background-size: cover;
     background-attachment: fixed;
+    color: white;
+    font-family: "Arial Narrow";
 }
 
 h1 {
-    color: white;
-    font-family: "Arial Narrow";
     font-weight: bolder;
     font-stretch: extra-condensed;
     text-align: center;
@@ -22,6 +22,24 @@ h1 {
     left: 50%;
     margin-top: -50px;
     margin-left: -275px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -275px;
+}
+
+div.alakiri {
+    font-stretch: extra-condensed;
+    position: absolute;
+    font-weight: 200;
+    font-size: 20px;
+    bottom: 0;
 }
 
 div.infokast {
@@ -36,11 +54,10 @@ div.infokast {
 div.infokast p {
     margin: 5%;
     font-weight: bold;
-    font-family: "Arial Narrow";
     color: rgb(0, 0, 0);
     text-align: center;
     margin-top: 20px;
-  }
+}
 
 .peamenüü {
     float: left;
