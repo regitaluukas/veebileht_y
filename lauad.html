@@ -4,6 +4,8 @@
 <title>Delta tudengiala</title>
 <link href="lauadstyle.css" rel="stylesheet" type="text/css">
 <link href="põhistyle.css" rel="stylesheet" type="text/css">
+<link href="slaidshow_style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     
@@ -17,5 +19,34 @@
         </ul>
         </div>
     </header>
+
+    <div class="slideshow-kast">
+
+        <div class="mySlides fade">
+          <img src="pildid/IMG_4892.JPG" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="pildid/IMG_4861.JPG" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="pildid/IMG_4890.JPG" style="width:100%">
+        </div>
+        
+        <a class="vasak-nupp" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="parem-nupp" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div class="nupud">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </div>
+    <script src="slaidshow.js"></script>
+        
 </body>    
 </html>
