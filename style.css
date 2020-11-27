@@ -59,24 +59,3 @@ div.infokast p {
     text-align: center;
     margin-top: 10px;
   }
-
-.peamenüü {
-    float: left;
-    list-style: none;
-    line-height: 70px;
-    padding-left: 10px;
-}
-
-.peamenüü li a {
-    color: white;
-    font-family: "Arial Narrow";
-    font-stretch: extra-condensed;
-    font-weight: 200;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 10px;
-}
-
-.peamenüü li a:hover {
-    border: 1px solid white;
-}
