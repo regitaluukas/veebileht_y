@@ -8,8 +8,6 @@ body {
     url(delta.jpg);
     background-size: cover;
     background-attachment: fixed;
-    color: white;
-    font-family: "Arial Narrow";
 }
 
 h1 {
