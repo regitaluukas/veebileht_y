@@ -52,7 +52,13 @@ body{
     white-space:nowrap
 }
 
+.tekstikast {
+    width: 700px;
+    position: absolute;
+}
+
 table {
+    position: absolute;
     width: 25%;
     margin: 50px
     }
