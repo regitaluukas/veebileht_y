@@ -13,17 +13,17 @@ text-align: center;
 .pealkiri {
     position: absolute;
     top: 10px;
-    left: 200px;
+    left: 400px;
 }
 
 .tekstikast {
-    top: 0px;
-    right: 0px;
+    top: 50px;
+    left: 130px;
 }
 
 table {
-    top: 0px;
-    right: 0px;
+    top: 350px;
+    left: 130px;
 }
 
 p {
@@ -32,11 +32,11 @@ margin: 50px;
 }
 
 .slideshow-kast {
-    right: 0px;
-    top: 0px;
+    right: 20px;
+    top: 20px;
 }
 
 .nupud {
-    right: 0px;
-    top: 0px;
+    right: 150px;
+    top: 500px;
 }
