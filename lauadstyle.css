@@ -1,3 +1,9 @@
+body {
+    background-image: url(pildid/c3HSgbWA.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 h1 {
 text-align: center;
 }
@@ -6,11 +12,3 @@ p {
 text-align: justify;
 margin: 50px;
 }
-
-td .dot {
-    height: 10px;
-    width: 10px;
-    background-color: rgb(34, 34, 34);
-    border-radius: 50%;
-    display: inline-block;
-  }
