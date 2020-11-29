@@ -1,92 +1,65 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  /* Create three equal columns that floats next to each other */
-  .column {
-    float: left;
-    
-     /* Should be removed. Only for demonstration */
-  }
-  
-  .esimene {
-    width: 10%;
-  }
-  
-  .teine {
-    width: 50%;
-    height: 100%;
-  }
-  
-  .kolmas {
-    width: 40%;
-    
-  }
-
-  /* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 900px) {
-    .column {
-      width: 100%;
-    }
-  }
-  
+box-sizing: border-box;
+}
 
 body {
     background-image: url(pildid/deltaesine2.jpg);
     background-attachment: fixed;
     background-size: cover;
+    }
+
+
+.column {
+float: left;
 }
 
-h1 {
-text-align: center;
+.esimene {
+width: 10%;
 }
 
+.teine {
+width: 50%;
+height: 100%;
+}
+
+.kolmas {
+width: 40%;
+
+}
 
 .pealkiri {
-    display: inline;
-    font-size: 50px;
-    top: 0px;
-    left: 230px;
+display: inline;
+font-size: 50px;
+top: 0px;
+left: 230px;
 
 }
 
 .tekstikast {
-    display:inline;
-    width: 100xp;
-    top: 120px;
-    left: 80px;
-    
+display:inline;
+width: 100xp;
+top: 120px;
+left: 80px;
+
 } 
 
 table {
-    display: inline;
-    top: 250px;
-    left: 0px;
-    margin: 0px;
+display: inline;
+top: 250px;
+left: 0px;
+margin: 0px;
 }  
 
 
-p {
-text-align: justify;
-margin: 40px;
-width: 400xp;
-}
 
 .slideshow-kast {
-    position: relative;
-    overflow: auto;
-    padding: 10px;
-    height: auto;
-    margin: auto;
+position: relative;
+overflow: auto;
+padding: 10px;
+height: auto;
+margin: auto;
 }
 
 .parem-nupp {
-    right:10xp
+right:10xp
 }

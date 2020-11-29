@@ -1,8 +1,14 @@
+* {
+    box-sizing: border-box;
+    }
+
 body {
     background-image: url(pildid/deltaesine2.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
+
+
 
 h1 {
 text-align: center;

@@ -9,6 +9,16 @@ body{
     background-color: rgb(117, 117, 117);
 }
 
+h1 {
+    text-align: center;
+    }
+
+p {
+    text-align: justify;
+    margin: 40px;
+    width: 400xp;
+    }
+
 .peamenüü {
     float: left;
     list-style: none;
@@ -63,4 +73,16 @@ td .tühitäpp {
     background-color: rgba(255, 255, 255, 0.226);
     border-radius: 50%;
     display: inline-block;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+@media screen and (max-width: 900px) {
+    .column {
+    width: 100%;
+    }
 }
