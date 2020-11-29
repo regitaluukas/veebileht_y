@@ -8,9 +8,9 @@ img {vertical-align: middle;}
 
 
 .slideshow-kast {
-  max-width: 500px;
-  position: relative;
-  margin: auto;
+  max-width: 400px;
+  ;
+  
 }
 
 .vasak-nupp, .parem-nupp {
@@ -30,7 +30,7 @@ img {vertical-align: middle;}
 
 /* Position the "next button" to the right */
 .parem-nupp {
-  right: 0;
+  right: 2.5%;
   border-radius: 3px 0 0 3px;
 }
 
@@ -64,5 +64,7 @@ img {vertical-align: middle;}
 }
 
 .nupud {
-    text-align:center
+    text-align:center;
+    position: relative;
+    
 }

@@ -1,14 +1,32 @@
-body {
+ body {
   background-image: url(pildid/deltaesine2.jpg);
   background-attachment: fixed;
   background-size: cover;
-}
+ }
 
-h1 {
+ h1 {
   text-align: center;
   }
   
   p {
   text-align: justify;
   margin: 50px;
+  }
+
+  .slideshow-kast {
+    float: right;
+   margin-right: 100px;
+  }
+
+  .tekstikast {
+    margin-top: 10%;
+    margin-right: 40%;
+  }
+
+  table {
+    margin: 600%;
+  }
+
+  .pealkiri {
+    margin-top: 10px;
   }
