@@ -4,17 +4,99 @@
 <title>Delta tudengiala</title>
 <link href="karpstyle.css" rel="stylesheet" type="text/css">
 <link href="põhistyle.css" rel="stylesheet" type="text/css">
+<link href="slaidshow_style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    
     <header>
         <div class="row">
         <ul class="peamenüü">
             <li><a href="index.html"> AVALEHT</a></li>
             <li><a href="lauad.html"> LAUAD</a></li>
             <li><a href="kärg.html"> KÄRJED</a></li>
-            <li><a href="karp.html"> BOKSID</a></li>
+            <li class="aktiivne"><a href="karp.html"> BOKSID</a></li>
         </ul>
         </div>
+    </header>
+
+    <div class="slideshow-kast">
+
+        <div class="mySlides fade">
+          <img src="pildid/IMG_4895.JPG" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="pildid/IMG_4901.JPG" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="pildid/IMG_4906.JPG" style="width:100%">
+        </div>
+        
+        <a class="vasak-nupp" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="parem-nupp" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div class="nupud">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </div>
+    <h1>BOKSID</h1>
+    <p>Üksikboksid on pisikesed nn nurgatagused, kuhu mahub sisse üks inimene koos oma arvutiga. 
+      Boksides on tagatud mõningane privaatsus, kui soovid segamata õppimisele keskenduda. Olemas on ka pistikud.
+    </p>
+    <table>
+    <tr>
+      <td> Sobivus rühmatööks</td>
+      <td> 
+        <span class="tühitäpp"></span>
+        <span class="tühitäpp"></span>
+        <span class="tühitäpp"></span>
+        <span class="tühitäpp"></span>
+        <span class="tühitäpp"></span>
+      </td>
+    </tr>
+    <tr>
+      <td> Sobivus üksi õppimiseks</td>
+      <td> 
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span></td>
+    </tr>
+    <tr>
+      <td> Saadavus enamasti</td>
+      <td> 
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span></td>
+    </tr>
+    <tr>
+      <td> Privaatsus</td>
+      <td> 
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span></td>
+    </tr>
+    <tr>
+      <td> Mugavus</td>
+      <td> 
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="tühitäpp"></span>
+        <span class="tühitäpp"></span></td>
+    </tr>
+    </table>
+    <script src="slaidshow.js"></script>
 </body>    
 </html>

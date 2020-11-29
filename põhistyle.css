@@ -1,7 +1,16 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
 body{   
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: "Arial Narrow";
+<<<<<<< HEAD
     background-color: gray;
+=======
+    background-color: rgb(117, 117, 117);
+>>>>>>> master
 }
 
 .peamenüü {
@@ -25,6 +34,51 @@ body{
     border: 1px solid white;
 }
 
+.peamenüü li.aktiivne a {
+    background: rgba(255, 255, 255, 0.185);
+}
+
 .mySlides {
     display:none;
+}
+
+.nupp-vasakule {
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap
+}
+
+.tekstikast {
+    width: 700px;
+    position: absolute;
+}
+
+table {
+    position: absolute;
+    width: 25%;
+    margin: 50px
+    }
+    
+td .täpp {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+td .tühitäpp {
+    height: 10px;
+    width: 10px;
+    background-color: rgba(255, 255, 255, 0.226);
+    border-radius: 50%;
+    display: inline-block;
 }

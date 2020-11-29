@@ -2,9 +2,10 @@
 <html>
 <head>
 <title>Delta tudengiala</title>
-
 <link href="kärgstyle.css" rel="stylesheet" type="text/css">
 <link href="põhistyle.css" rel="stylesheet" type="text/css">
+<link href="slaidshow_style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <header>
@@ -12,19 +13,37 @@
         <ul class="peamenüü">
             <li><a href="index.html"> AVALEHT</a></li>
             <li><a href="lauad.html"> LAUAD</a></li>
-            <li><a href="kärg.html"> KÄRJED</a></li>
+            <li class="aktiivne"><a href="kärg.html"> KÄRJED</a></li>
             <li><a href="karp.html"> BOKSID</a></li>   
         </ul>
         </div>
     </header>
-    <section class="pildid"
-        <div class="Slaidid">
-            <img class="mySlides" src="pildid/IMG_4859.JPG" style="width:100%">
-            <img class="mySlides" src="pildid/IMG_4862.JPG" style="width:100%">  
-            <img class="mySlides" src="pildid/IMG_4882.JPG" style="width:100%">   
-            <button class="nupp-vasakule" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="nupp-paremale" onclick="plusDivs(1)">&#10095;</button>
+    <div class="slideshow-kast">
+
+        <div class="mySlides fade">
+          <img src="pildid/IMG_4843.JPG" style="width:100%">
         </div>
+        
+        <div class="mySlides fade">
+          <img src="pildid/IMG_4844.JPG" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="pildid/IMG_4838.JPG" style="width:100%">
+        </div>
+        
+        <a class="vasak-nupp" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="parem-nupp" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div class="nupud">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+<<<<<<< HEAD
     </section>
     <script src="slideshow.js"></script>
     <span class="ring"></span>
@@ -32,5 +51,62 @@
     <span class="ring"></span>
     <span class="ring"></span>
     <span class="tühiring"></span>
+=======
+    </div>
+    <h1>KÄRJED</h1>
+    <p>Kärjed on kuuekandilised kinnised ruumid, mida on väga mugav kasutada rühmatööks. 
+        Kuna kärgedel on uksed, siis ei pea muretsema teiste tudengite segamise pärast ning saab arvutist valjusti videosi vaadata või rühmakaaslastega arutleda. 
+        Igas kärjes on laud, toolid, kott-toolid ning valge markertahvel. Kokku on 10 kärge.
+    </p>
+    <table>
+    <tr>
+      <td> Sobivus rühmatööks</td>
+      <td> 
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+      </td>
+    </tr>
+    <tr>
+      <td> Sobivus üksi õppimiseks</td>
+      <td> 
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="tühitäpp"></span>
+        <span class="tühitäpp"></span>
+        <span class="tühitäpp"></span></td>
+    </tr>
+    <tr>
+      <td> Saadavus enamasti</td>
+      <td> 
+        <span class="täpp"></span>
+        <span class="tühitäpp"></span>
+        <span class="tühitäpp"></span>
+        <span class="tühitäpp"></span>
+        <span class="tühitäpp"></span></td>
+    </tr>
+    <tr>
+      <td> Privaatsus</td>
+      <td> 
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="tühitäpp"></span></td>
+    </tr>
+    <tr>
+      <td> Mugavus</td>
+      <td> 
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span></td>
+    </tr>
+    </table>
+    <script src="slaidshow.js"></script>
+>>>>>>> master
 </body>    
 </html>

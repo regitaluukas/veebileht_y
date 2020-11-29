@@ -4,6 +4,8 @@
 <title>Delta tudengiala</title>
 <link href="lauadstyle.css" rel="stylesheet" type="text/css">
 <link href="põhistyle.css" rel="stylesheet" type="text/css">
+<link href="slaidshow_style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     
@@ -11,12 +13,13 @@
         <div class="row">
         <ul class="peamenüü">
             <li><a href="index.html"> AVALEHT</a></li>
-            <li><a href="lauad.html"> LAUAD</a></li>
+            <li class="aktiivne"><a href="lauad.html"> LAUAD</a></li>
             <li><a href="kärg.html"> KÄRJED</a></li>
             <li><a href="karp.html"> BOKSID</a></li>   
         </ul>
         </div>
     </header>
+<<<<<<< HEAD
     <table>
         <tr>
           <th>Firstname</th>
@@ -34,5 +37,94 @@
           <td>94</td>
         </tr>
       </table>
+=======
+
+    <div class="slideshow-kast">
+
+        <div class="mySlides fade">
+          <img src="pildid/IMG_4892.JPG" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="pildid/IMG_4861.JPG" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="pildid/IMG_4890.JPG" style="width:100%">
+        </div>
+        
+        <a class="vasak-nupp" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="parem-nupp" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div class="nupud">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </div>
+    <div class="pealkiri">
+      <h1>LAUAD</h1>
+    </div>
+    <div class="tekstikast">
+      <p>II korruse tudengiala koridoris leiab ka mitmeid laudu toolidega, 
+        kus saab vabade kohtade olemasolul teha kas mitmekesi tööd või siis ka üksi õppida.
+        Lauad ei ole küll väga privaatsed ning tuleb arvestada kaasõpilastega. 
+        Iga laua juures on olemas pistikud ning koridori pealt leiab ka liigutatavaid tahvlid, 
+        kui on vaja midagi suurelt üles kirjutada.
+      </p>
+    </div>
+    <table>
+    <tr>
+      <td> Sobivus rühmatööks</td>
+      <td> 
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="tühitäpp"></span>
+      </td>
+    </tr>
+    <tr>
+      <td> Sobivus üksi õppimiseks</td>
+      <td> 
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="tühitäpp"></span></td>
+    </tr>
+    <tr>
+      <td> Saadavus enamasti</td>
+      <td> 
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span></td>
+    </tr>
+    <tr>
+      <td> Privaatsus</td>
+      <td> 
+        <span class="täpp"></span>
+        <span class="tühitäpp"></span>
+        <span class="tühitäpp"></span>
+        <span class="tühitäpp"></span>
+        <span class="tühitäpp"></span></td>
+    </tr>
+    <tr>
+      <td> Mugavus</td>
+      <td> 
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="täpp"></span>
+        <span class="tühitäpp"></span>
+        <span class="tühitäpp"></span></td>
+    </tr>
+    </table>
+  <script src="slaidshow.js"></script>
+>>>>>>> master
 </body>    
 </html>

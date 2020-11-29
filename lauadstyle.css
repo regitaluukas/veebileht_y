@@ -1,4 +1,47 @@
+<<<<<<< HEAD
 table {
     width: 50%;
     border: 2px;
+=======
+body {
+    background-image: url(pildid/deltaesine2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+text-align: center;
+
+}
+
+.pealkiri {
+    position: absolute;
+    top: 10px;
+    left: 400px;
+}
+
+.tekstikast {
+    top: 50px;
+    left: 130px;
+}
+
+table {
+    top: 350px;
+    left: 130px;
+}
+
+p {
+text-align: justify;
+margin: 50px;
+}
+
+.slideshow-kast {
+    right: 20px;
+    top: 20px;
+}
+
+.nupud {
+    right: 150px;
+    top: 500px;
+>>>>>>> master
 }

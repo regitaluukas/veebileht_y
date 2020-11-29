@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .ring {
   height: 10px;
   width: 10px;
@@ -13,3 +14,19 @@
   border-radius: 50%;
   display: inline-block;
 }
+=======
+body {
+  background-image: url(pildid/deltaesine2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  }
+  
+  p {
+  text-align: justify;
+  margin: 50px;
+  }
+>>>>>>> master
