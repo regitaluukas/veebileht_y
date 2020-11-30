@@ -11,28 +11,21 @@ body {
     background-attachment: fixed;
 }
 
-.lehenimi {
-    font-weight: bold;
+h1 {
     font-size: 80px;
-    padding-top: 200px;
-    padding-left: 180px;
+    font-weight: bold;
+    position: relative;
+    padding-left: 25%;
+    padding-top: 15%;
 }
 
-.alakiri {
+h3 {
     font-size: 20px;
     font-weight: bold;
-    padding-left: 215px;
+    position: relative;
+    padding-left: 28%;
+    padding-bottom: 20%;  
 } 
-
-.esilehe_tekst {
-  position: relative;
-  display: inline;
-  left: 0px;
-  top: 250px;
-  font-size: 20px;
-  margin: 200xp;
-
-}
 
 
 div.infokast {
@@ -53,15 +46,8 @@ div.infokast p {
     margin-top: 10px;
   }
 
-.column {
-    float: left;
-}
-
-.üks {
-    width: 10%;
-}
-
-.kaks {
-    width: 90%;
-    height: 550px;
+.menüü {
+  position:fixed;
+  display: inline;
+  z-index: 100;
 }
