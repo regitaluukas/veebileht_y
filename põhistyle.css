@@ -13,12 +13,12 @@ h2 {
     padding: 20px;
     text-align: center;
     font-stretch: extra-condensed;
-    }
+}
 
 p {
     text-align: justify;
     margin: 40px;
-    }
+}
 
 .peamenüü {
     float: left;
@@ -53,7 +53,7 @@ table {
     width: 60%;
     margin: 35px;
     border-spacing: 10px;
-    }
+}
 
     
 td .täpp {

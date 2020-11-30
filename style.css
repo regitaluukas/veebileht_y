@@ -35,7 +35,7 @@ div.infokast {
     bottom: 0;
     width: 100%;
     height: 70px;
-  }
+}
 
 div.infokast p {
     margin: 5%;
@@ -44,7 +44,7 @@ div.infokast p {
     color: rgb(20, 20, 20);
     text-align: center;
     margin-top: 10px;
-  }
+}
 
 .menüü {
   position:fixed;
