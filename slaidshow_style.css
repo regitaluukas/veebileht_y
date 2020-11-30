@@ -28,18 +28,15 @@ img {vertical-align: middle;}
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .parem-nupp {
   right: 2.5%;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .vasak-nupp:hover, .parem-nupp:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -55,7 +52,6 @@ img {vertical-align: middle;}
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -65,6 +61,5 @@ img {vertical-align: middle;}
 
 .nupud {
     text-align:center;
-    position: relative;
-    
+    position: relative;  
 }
