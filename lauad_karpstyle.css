@@ -6,7 +6,7 @@ body {
     background-image: url(pildid/deltaesine2.jpg);
     background-attachment: fixed;
     background-size: cover;
-    }
+}
 
 
 .column {
@@ -30,4 +30,4 @@ table {
     top: 250px;
     left: 0px;
     margin: 0px;
-   } 
+} 

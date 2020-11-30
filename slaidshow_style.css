@@ -1,5 +1,5 @@
-/* Kasutatud material slaidshowks: 
-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow */
+/* Kasutatud materjal slaidshowks: 
+https://www.w3schools.com/howto/howto_js_slideshow.asp https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow */
 
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
@@ -9,8 +9,6 @@ img {vertical-align: middle;}
 
 .slideshow-kast {
   max-width: 400px;
-  ;
-  
 }
 
 .vasak-nupp, .parem-nupp {
