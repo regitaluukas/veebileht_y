@@ -25,17 +25,16 @@ body {
 } 
 
 .esilehe_tekst {
-  position: relative;
-  display: inline;
-  left: 0px;
-  top: 250px;
-  font-size: 20px;
+    position: relative;
+    display: inline;
+    left: 0px;
+    top: 250px;
+    font-size: 20px;
 }
 
 
 div.infokast {
     background-color: rgba(209, 209, 209, 0.322);
-    backdrop-filter: blur(3px);
     position: fixed;
     bottom: 0;
     width: 100%;
