@@ -29,10 +29,8 @@ h3 {
     padding-bottom: 20%;  
 } 
 
-
 div.infokast {
     background-color: rgba(209, 209, 209, 0.322);
-    backdrop-filter: blur(3px);
     position: fixed;
     bottom: 0;
     width: 100%;

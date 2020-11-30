@@ -1,5 +1,5 @@
 * {
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,19 +10,19 @@ body {
 
 
 .column {
-float: left;
+    float: left;
 }
 
 .esimene {
-width: 10%;
+    width: 10%;
 }
 
 .teine {
-width: 50%;
+    width: 50%;
 }
 
 .kolmas {
-width: 40%;
+    width: 40%;
 }
 
 table {
