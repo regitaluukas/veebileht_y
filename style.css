@@ -1,6 +1,7 @@
 * { 
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,35 +11,29 @@ body {
     background-attachment: fixed;
 }
 
-h1 {
-    font-weight: bolder;
-    font-stretch: extra-condensed;
-    text-align: center;
+.lehenimi {
+    font-weight: bold;
     font-size: 80px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -320px;
+    padding-top: 200px;
+    padding-left: 180px;
 }
 
-h2 {
-    text-align: center;
+.alakiri {
     font-size: 20px;
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -285px;
+    font-weight: bold;
+    padding-left: 215px;
+} 
+
+.esilehe_tekst {
+  position: relative;
+  display: inline;
+  left: 0px;
+  top: 250px;
+  font-size: 20px;
+  margin: 200xp;
+
 }
 
-div.alakiri {
-    font-stretch: extra-condensed;
-    position: absolute;
-    font-weight: 200;
-    font-size: 20px;
-    bottom: 0;
-}
 
 div.infokast {
     background-color: rgba(209, 209, 209, 0.322);
@@ -57,3 +52,16 @@ div.infokast p {
     text-align: center;
     margin-top: 10px;
   }
+
+.column {
+    float: left;
+}
+
+.üks {
+    width: 10%;
+}
+
+.kaks {
+    width: 90%;
+    height: 550px;
+}

@@ -19,43 +19,15 @@ width: 10%;
 
 .teine {
 width: 50%;
-height: 100%;
 }
 
 .kolmas {
 width: 40%;
-
 }
-
-.pealkiri {
-display: inline;
-font-size: 50px;
-top: 0px;
-left: 230px;
-
-}
-
-.tekstikast {
-display:inline;
-width: 100xp;
-top: 120px;
-left: 80px;
-
-} 
 
 table {
-display: inline;
-top: 250px;
-left: 0px;
-margin: 0px;
-}  
-
-
-
-.slideshow-kast {
-position: relative;
-overflow: auto;
-padding: 10px;
-height: auto;
-margin: auto;
-}
+    display: inline;
+    top: 250px;
+    left: 0px;
+    margin: 0px;
+   } 
